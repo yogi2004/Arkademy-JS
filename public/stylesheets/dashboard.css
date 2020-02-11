@@ -1,0 +1,75 @@
+
+body{
+    background-color: #ddd;
+}
+
+/*header*/
+header{
+    background-color: rgba(13, 121, 230, 0.933);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .site-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .dropdown-toggle,
+.container .dropdown-item{
+
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+/*Navigation Menu*/
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color: gray !important;
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+
+/* Main */
+
+/*background*/
+
+.background{
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+  background-position: 50% 50%;
+}
+
+.row .card:hover{
+    box-shadow: rgba(0, 0,0, 0.4);
+}
+
+.nav-top{
+    height: 100%;
+    padding: 30px;
+}
+
+.box{
+    width: 100%;
+    border: 1px solid white;
+    background-color: #fff;
+}
+.form-invent{
+    padding: 20px;
+}
+form{
+    padding: 20px;
+}
+
+.left{
+    margin-top: 150px;
+}
